@@ -1,5 +1,5 @@
 const upcoming = [
-  { title: "Mass Effect Fan Film", tag: "Trailer" },
+  { title: "Time Pouch: Episode 1", tag: "Trailer" },
   { title: "XPRIZE Entry", tag: "Experimental" },
   {
     title: "Chrome Syndicate — Mount Fuji Music Video",
@@ -15,8 +15,7 @@ export function InDevelopment() {
           In Development
         </h2>
         <p className="mb-14 max-w-xl text-[0.95rem] font-light leading-[1.85] tracking-[0.03em] text-[var(--muted)] md:mb-16">
-          Titles still gathering light in the edit—fragments of worlds not yet ready
-          for the screen.
+          Titles still to come..
         </p>
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-3 sm:gap-8">
           {upcoming.map(({ title, tag }) => (

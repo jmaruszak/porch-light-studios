@@ -32,7 +32,7 @@ export function FeaturedProjects() {
           Featured Projects
         </h2>
         <p className="mb-14 max-w-2xl text-[0.95rem] font-light leading-[1.85] tracking-[0.03em] text-[var(--muted)] md:mb-20 md:text-[1rem]">
-          A curated set of pieces from the studio—each with its own light, rhythm, and
+          A curated set of pieces from the studio each with its own vibe, rhythm, and
           atmosphere.
         </p>
         <div className="grid grid-cols-1 gap-16 sm:grid-cols-2 sm:gap-16 lg:grid-cols-3 lg:gap-20">
