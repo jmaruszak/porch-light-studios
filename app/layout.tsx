@@ -24,7 +24,7 @@ const cormorant = Cormorant_Garamond({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: "Porch Light Studios",
-  description: "Original films, music, and digital projectsbuilt in Mississippi.",
+  description: "Original films, music, and digital projects built in Mississippi.",
   alternates: {
     canonical: "/",
   },
@@ -47,7 +47,14 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Porch Light Studios",
     description: "Original films, music, and digital projects built in Mississippi.",
-    images: [OG_IMAGE],
+    images: [
+      {
+        url: OG_IMAGE,
+        width: 1200,
+        height: 630,
+        alt: "Porch Light Studios",
+      },
+    ],
   },
 };
 
